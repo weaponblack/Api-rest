@@ -1,0 +1,23 @@
+{
+  "name": "academic-api",
+  "version": "1.0.0",
+  "description": "Academic api for students and teachers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "academic",
+    "rest",
+    "api",
+    "teacher",
+    "student",
+    "course"
+  ],
+  "author": "Juan josé Gamboa",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.9",
+    "mongoose": "^6.9.1"
+  }
+}

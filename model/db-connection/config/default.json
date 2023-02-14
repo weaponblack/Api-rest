@@ -1,0 +1,10 @@
+{
+    "db-connections":{
+        "mongodb":{
+            "host":"atlascluster.y6jufha.mongodb.net",
+            "user":"acad_rest_api_user",
+            "password":"hcF2vc310WdLNMKI",
+            "dbname":"academicDB"
+        }
+    }
+}
