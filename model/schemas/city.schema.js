@@ -33,6 +33,6 @@ const citySchema = new mongoose.Schema({
 
 /** Schema exportation */
 
-personSchema.plugin(validator);
+citySchema.plugin(validator);
 
 module.exports = citySchema;

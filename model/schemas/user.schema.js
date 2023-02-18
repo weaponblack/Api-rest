@@ -28,7 +28,7 @@ const userSchema = new mongoose.Schema({
 });
 /** Schema exportation */
 
-personSchema.plugin(validator);
+userSchema.plugin(validator);
 
 
 /** Schema exportation */

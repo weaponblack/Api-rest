@@ -26,4 +26,4 @@ schema.statics = {
 };
 
 const dto = mongoose.model("coll_person",schema);
-module.exports = mongoose.model;
+module.exports = dto;
