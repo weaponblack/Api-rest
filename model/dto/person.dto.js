@@ -14,7 +14,7 @@ schema.statics = {
     getAll: function (query,cb){
         this.find(query,cb);
     },
-    getByCode: function (query,cb){ //Función debe ser modificada para usar "Idenficacion" en lugar de "code"
+    getByCode: function (query,cb){
         this.find(query,cb);
     },
     update: function(query,data,cb){

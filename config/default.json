@@ -1,14 +1,15 @@
 {
     "db-connections":{
         "mongodb":{
-            "host":"atlascluster.y6jufha.mongodb.net",
+            "host":"mongodbcluster.wfna9s4.mongodb.net",
             "user":"acad_rest_api_user",
-            "password":"hcF2vc310WdLNMKI",
-            "dbname":"academicDB"
+            "password":"T94osIpDl2CfTAxQ",
+            "dbname":"AcademicDB"
         }
     },
     "secretKeys":{
         "cryptojs":"atLz8g@9RVg"
     },
-    "server-port": 3000
+    "server-port": 4000
+
 }

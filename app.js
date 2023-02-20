@@ -18,8 +18,13 @@ app.get("/", (req,res,next) => {
     res.send("Welcome to programación 3")
 })
 
+// Person Routes Loading
 const personRoutes = require("./routes/person.routes")
 personRoutes(app);
+
+// City Routes Loading
+const cityRoutes = require("./routes/city.routes")
+cityRoutes(app);
 
 app.listen(port,() => {
     console.log("Server is running...")

@@ -45,6 +45,7 @@ exports.createPerson = (req,res,next) => {
                     }
                 );
             }
+
             notHelper.sendSMS(prs.phone)
 
             res.status(201).json(

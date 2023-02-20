@@ -1,29 +1,23 @@
 /** packages */
-
 const mongoose = require("mongoose");
 const validator = require("mongoose-unique-validator");
 
-
-const Schema = mongoose.Schema;
-
 /** Schema creation */
 const citySchema = new mongoose.Schema({
-
-    name:{
-        type:"String",
-        required : true,
+    name: {
+        type: "String",
+        required: true,
         unique: true
-
     },
-    foundationDate:{
-        type:"Number",
-        required: true
-    },
-    population:{
+    foundationDate: {
         type: "Number",
         required: true
-    },  
-    temp:{
+    },
+    population: {
+        type: "Number",
+        required: true
+    },
+    temp: {
         type: "Number",
         required: true,
         min: -60,

@@ -14,7 +14,6 @@ schema.statics = {
     getAll: function (query,cb){
         this.find(query,cb);
     },
-    //Función que debe ser modificada porque city no tiene un "code"
     getByCode: function (query,cb){
         this.find(query,cb);
     },
@@ -25,5 +24,6 @@ schema.statics = {
         this.findOneAndDelete(query);
     }
 };
+
 const dto = mongoose.model("coll_city",schema);
 module.exports = dto;
