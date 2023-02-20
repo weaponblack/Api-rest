@@ -6,5 +6,10 @@
             "password":"hcF2vc310WdLNMKI",
             "dbname":"academicDB"
         }
-    }
+    },
+    "secretKeys":{
+        "cryptojs":"atLz8g@9RVg"
+    },
+    "server-port": 3000
+
 }
